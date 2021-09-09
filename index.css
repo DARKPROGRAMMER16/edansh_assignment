@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+  }
+  
+a {
+text-decoration: none;
+}
+
+/* navbar starts here */
+.navbar-bg{
+    background-color: #fff;
+    padding: 1rem 0;
+    z-index: 99;
+    position: relative;
+  }
+  
+  .navbar-brand{
+    font-size: 2.5rem;
+  }
+  
+  .navbar li{
+    padding: 0 2rem;
+  }
+  
+  .navbar li a{
+    font-size: 1.7rem;
+    font-weight: lighter;
+    position: relative;
+  }
+  
+  .navbar li a:hover{
+    color: var(--primary-color) !important;
+    text-shadow: 0 0.2rem 0.3rem rgba(183,171,255,0.5);
+  }
+  
+  .btn-style{
+    width: 12rem;
+    height: 4rem;
+    border-radius: .4rem;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+  }
+  
+  /* 
+  navbar ends here */
+
+  /* main-content starts */
+
+  
+  .left-arrow span{
+      font-size: 3rem;
+      padding: 0 1.4rem;
+      width:5rem;
+      border: 1px solid black;
+      border-radius: 50%;
+  }
+
+  .main-content{
+      background-color: #FAFBFC;
+  }
+
+  .right-side-content{
+      margin-top: 6rem;
+  }
+
+  .main-heading{
+      margin:0.7rem 0 4rem 0;
+  }
+
+
+  .search-filter{
+      margin-bottom:4rem;
+  }
+
+  .filter-buttons .btn-style{
+      border-radius: 5rem;
+  }
+  .btn-style i{
+      font-size: 2rem;
+  }
+
+  .form-control-text{
+      height: 4rem;
+      border: none;
+      background-color: #EDEDED;
+      outline-style: none;
+      padding-left: 1.5rem !important;
+      font-size: 1.2rem;
+  }
+
+  .profile-area{
+      /* padding: 3rem 0; */
+      margin-bottom:3rem;
+  }
+ .profile-area .card{
+     margin-top: 4rem;
+     border: 0.5px solid grey;
+     overflow: hidden;
+     border-radius: .5rem;
+     width: 90%;
+     height: 37rem;
+ }
+ .img2{
+    margin-top: 4rem;
+ }
+ .img2 img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 18rem;
+     height: 18rem;
+     border-radius: 50%;
+ }
+  
+ .main-text h2{
+     font-size:2rem;
+     margin: 1.2rem 0 0.5rem 0;
+     text-align: center;
+ }
+ .main-text h6{
+     font-size:1.2rem;
+     text-align: center;
+     color: #0C7DD9
+ }
+ .main-text p{
+     font-size:1.1rem;
+     color: #223345;
+     margin-top: 1.5rem;
+     text-align:center;
+ }
+
+  /* main-content ends */
+
+  /* footer notification starts */
+  .notification{
+      background-color: #fff;
+  }
+
+  .noti-subdiv{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+  }
+  .noti-content h3{
+    color:#0C7DD9;
+    font-size: 1.58rem;
+  }
+  .noti-content p{
+      font-size: 1.9rem;
+  }
+
+  .noti-button .btn-style{
+      width:15rem;
+      font-size: 1.25rem;
+
+  }
+  /* footer notification ends*/
+
+  /* footer section starts */
+
+  .footer{
+      background-color: #0A2540;
+      color:#fff;
+  }
+
+  .footer-subdiv{
+      margin-top: 7rem;
+  }
+
+  .footer-left-side > h1{
+      margin-bottom:4rem;
+  }
+
+  .footer h1 #ed {
+      color: #fff;
+  }
+  .footer h1 #A{
+      color: rgb(255, 145, 0);
+  }
+  .footer h1 #N{
+    color: rgb(238, 255, 0);
+  }
+  .footer h1 #S{
+    color: rgb(22, 247, 15);
+  }
+  .footer h1 #H{
+    color:rgb(0, 204, 255)
+  }
+
+  .footer-left-side p{
+      font-size: 1.4rem;
+  }
+
+  .footer-right-side .form-control-text{
+      background-color: transparent;
+      border-bottom: 1px solid grey;
+      margin-bottom: 1.5rem;
+  }
+
+  .icon-div{
+      text-align: end;
+      margin: 1rem 0 4rem 0;
+  }
+
+  /* footer section ends */
+
+
+
+
+  @media (min-width: 1500px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+      max-width: 1500px !important;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+      max-width: 1400px;
+    }
+  }
