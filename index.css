@@ -144,6 +144,9 @@ text-decoration: none;
    margin-top: .4rem;
    margin-right: 1rem;
  }
+ .main-text-location p{
+   width: 31.5%;
+ }
  
  .mobile-see-more-buttons{
    display:none;
