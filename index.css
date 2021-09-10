@@ -175,6 +175,8 @@ text-decoration: none;
   .noti-button .btn-style{
       width:15rem;
       font-size: 1.25rem;
+      background-color: #11A1FD;
+      border: none;
 
   }
   /* footer notification ends*/
@@ -210,8 +212,37 @@ text-decoration: none;
     color:rgb(0, 204, 255)
   }
 
+  .hrshow{
+    display: none;
+  }
+
+  .footer-heading{
+    color: grey;
+  }
+
   .footer-left-side p{
       font-size: 1.4rem;
+  }
+
+  .footer-mid-one {
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 3.5rem;
+  }
+
+  .footer-mid-one li{
+    list-style: none;
+  }
+
+  .footer-right-text{
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-right-text i{
+    margin-top: -1rem;
+    margin-right: 1rem;
   }
 
   .footer-right-side .form-control-text{
@@ -220,16 +251,27 @@ text-decoration: none;
       margin-bottom: 1.5rem;
   }
 
+  .footer-right-side .btn-style{
+    background-color: #11A1FD;
+    border: none;
+  }
+
   .icon-div{
       text-align: end;
       margin: 1rem 0 4rem 0;
+  }
+  .icon-div-up{
+    display: none;
+  }
+  .copyright-section{
+    margin-bottom: 2rem;
   }
 
   /* footer section ends */
 
 
 
-
+/* media queries starts */
   @media (min-width: 1500px) {
     .container,
     .container-lg,
@@ -251,3 +293,40 @@ text-decoration: none;
       max-width: 1400px;
     }
   }
+
+  @media (max-width: 998px) {
+    .noti-content h3{
+      font-size: 1.2rem;
+    }
+    .noti-content p{
+      font-size: 1.2rem;
+    }
+    .noti-button .btn-style{
+      font-size: 1.2rem;
+      width: 13rem;
+    }
+    .footer-left-side > h1{
+      margin-bottom:2rem;
+    }
+    .hrshow{
+      display: block;
+      color: #fff;
+    }
+    .icon-div-up{
+      display: block;
+    }
+    .icon-div{
+      display: none;
+    }
+    .footer-mid-one{
+      text-align: start;
+    }
+    .footer-right-side{
+      display: none;
+    }
+    .copyright-section{
+      margin: 2rem 0 5rem 0;
+    }
+  }
+
+  /* media queries ends */
