@@ -102,10 +102,11 @@ text-decoration: none;
       margin-bottom:3rem;
   }
  .profile-area .card{
+     background-color: #ffffff;
      margin-top: 4rem;
      border: 0.5px solid grey;
      overflow: hidden;
-     border-radius: .5rem;
+     border-radius: 1rem;
      width: 90%;
      height: 37rem;
  }
@@ -136,6 +137,18 @@ text-decoration: none;
      color: #223345;
      margin-top: 1.5rem;
      text-align:center;
+ }
+ .main-text-name ,.main-text-location{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .main-text-name img{
+   margin-top: .6rem;
+ }
+ .main-text-location img{
+   margin-top: .4rem;
+   margin-right: 1rem;
  }
 
   /* main-content ends */
