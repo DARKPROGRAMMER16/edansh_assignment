@@ -28,7 +28,7 @@
                 <img src="./LOGO.svg" alt="" srcset="">
             </a>
             <button
-                class="navbar-toggler"
+                class="navbar-toggler toggler-btn"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
@@ -36,6 +36,7 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
             >
+                <i class="fas fa-search mx-5"></i>
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -61,15 +62,17 @@
 
     <section class="main-content">
         <div class="container">
-            <div class="row">
-                <div class=" col-12 col-md-11 col-lg-11 mx-auto">
                     <div class="row right-side-content">
-                        <div class="col-1 col-md-2">
+                        <div class="col-1 col-md-1">
                             <div class="left-arrow text-end">
                                 <span><</span>
                             </div>
                         </div>
                         <div class="col-11 col-md-10">
+                            <div class="mobile-filter-buttons">
+                                <button class="btn btn-outline-dark btn-style">Filter</button>
+                                <input type="text" class="form-control form-control-text rounded-pill w-50" placeholder="Sort mentors by">
+                            </div>
                             <div class="main-heading">
                                 <h1>Meet Our Mentors</h1>
                             </div>
@@ -250,15 +253,16 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    
-                                                    
+                                    </div>          
                                 </div>
+                            </div>
+                            <div class="mobile-see-more-buttons">
+                                <button class="btn btn-dark btn-style">See more mentors</button>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                
+            
         </div>
     </section>
 
@@ -344,9 +348,14 @@
                     <img src="./linkedin.svg" alt="">
                     <img src="./twitter.svg" alt="">
                 </div>
-                <div class="copyright-section">
+                <div class="copyright-section container">
+                    <div class="mobile-policy-show">
+                        <a href="#">Contact Us</a>
+                        <a href="#">Privacy policies</a>
+                    </div>
+                    <hr class="hrshow">
                     <h5>EDANSH Mentors 2021 Gurgoan, India</h5>
-                    <h4>© Edansh All Rights Reserved | <a href="#">Privacy Policy</a></h4>
+                    <h4>© Edansh All Rights Reserved <span class="pp"> | <a href="#"> Privacy Policy</a></span> </h4>
                 </div>
             </div>
         </div>

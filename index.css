@@ -10,6 +10,9 @@
 html{
     font-size: 62.5%;
   }
+body{
+  background-color: #FAFBFC;
+}
   
 a {
 text-decoration: none;
@@ -22,24 +25,9 @@ text-decoration: none;
     z-index: 99;
     position: relative;
   }
-  
-  .navbar-brand{
-    font-size: 2.5rem;
-  }
-  
-  .navbar li{
-    padding: 0 2rem;
-  }
-  
-  .navbar li a{
-    font-size: 1.7rem;
-    font-weight: lighter;
-    position: relative;
-  }
-  
-  .navbar li a:hover{
-    color: var(--primary-color) !important;
-    text-shadow: 0 0.2rem 0.3rem rgba(183,171,255,0.5);
+
+  .toggler-btn{
+    border: none;
   }
   
   .btn-style{
@@ -68,6 +56,10 @@ text-decoration: none;
       background-color: #FAFBFC;
   }
 
+  .mobile-filter-buttons{
+    display: none;
+  }
+
   .right-side-content{
       margin-top: 6rem;
   }
@@ -75,7 +67,9 @@ text-decoration: none;
   .main-heading{
       margin:0.7rem 0 4rem 0;
   }
-
+  .main-heading h1{
+    font-size: 3rem;
+  }
 
   .search-filter{
       margin-bottom:4rem;
@@ -149,6 +143,10 @@ text-decoration: none;
  .main-text-location img{
    margin-top: .4rem;
    margin-right: 1rem;
+ }
+ 
+ .mobile-see-more-buttons{
+   display:none;
  }
 
   /* main-content ends */
@@ -266,6 +264,9 @@ text-decoration: none;
   .copyright-section{
     margin-bottom: 2rem;
   }
+  .mobile-policy-show{
+    display: none;
+  }
 
   /* footer section ends */
 
@@ -326,6 +327,41 @@ text-decoration: none;
     }
     .copyright-section{
       margin: 2rem 0 5rem 0;
+    }
+    .left-arrow,.main-heading,.search-filter{
+      display: none;
+    }
+    .mobile-filter-buttons{
+      margin-top: -3rem;
+      display: flex;
+      align-items: center;
+    }
+    .mobile-filter-buttons .btn-style{
+      border-radius: 5rem;
+    }
+    .mobile-filter-buttons .form-control-text{
+      margin-left: 2rem;
+    }
+    .mobile-see-more-buttons{
+      margin-bottom: 3rem;
+      display: block;
+      text-align: center;
+    }
+    .mobile-see-more-buttons .btn-style{
+      width: 15rem;
+    }
+    .notification{
+      display: none;
+    }
+    .mobile-policy-show{
+      display:block;
+    }
+    .mobile-policy-show a{
+      font-size: 1.3rem;
+      margin: 0 2rem;
+    }
+    .pp{
+      display: none;
     }
   }
 
